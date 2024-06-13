@@ -1,0 +1,139 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a9644ef36d28bda60f7b80db478a723e",
+    "packages": [
+        {
+            "name": "getkirby/composer-installer",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/composer-installer.git",
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/c98ece30bfba45be7ce457e1102d1b169d922f3d",
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.8 || ^2.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Kirby\\ComposerInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kirby\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
+            "homepage": "https://getkirby.com",
+            "support": {
+                "issues": "https://github.com/getkirby/composer-installer/issues",
+                "source": "https://github.com/getkirby/composer-installer/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://getkirby.com/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "timnarr/kirby-imagex",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timnarr/kirby-imagex.git",
+                "reference": "45ef81f978237eaea8661381714e24c7317db96b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timnarr/kirby-imagex/zipball/45ef81f978237eaea8661381714e24c7317db96b",
+                "reference": "45ef81f978237eaea8661381714e24c7317db96b",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3",
+                "getkirby/cms": "^4.0",
+                "phpunit/phpunit": "^10.5"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "files": [
+                    "helpers/aspectRatio.php",
+                    "helpers/attributes.php",
+                    "helpers/misc.php",
+                    "helpers/srcset.php"
+                ],
+                "psr-4": {
+                    "TimNarr\\": [
+                        "classes/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Narr",
+                    "email": "dev@tim-narr.com",
+                    "homepage": "https://tim-narr.com"
+                }
+            ],
+            "description": "Modern images for Kirby CMS – This plugin helps you orchestrate modern, responsive and performant images in Kirby",
+            "homepage": "https://github.com/timnarr/kirby-imagex",
+            "keywords": [
+                "images",
+                "kirby",
+                "kirby-cms",
+                "kirby-plugin",
+                "modern-images",
+                "responsive-images"
+            ],
+            "support": {
+                "issues": "https://github.com/timnarr/kirby-imagex/issues",
+                "source": "https://github.com/timnarr/kirby-imagex/tree/0.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/tim.n",
+                    "type": "custom"
+                }
+            ],
+            "time": "2024-05-13T20:46:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
