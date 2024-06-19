@@ -13,11 +13,6 @@
 		"getkirby/composer-installer": "^1.1",
 		"timnarr/kirby-imagex": "^0.1.2"
 	},
-	"autoload": {
-		"psr-4": {
-			"Superwoman\\Superplugin\\": "src/"
-		}
-	},
 	"config": {
 		"optimize-autoloader": true,
 		"allow-plugins": {

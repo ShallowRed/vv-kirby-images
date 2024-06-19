@@ -4,6 +4,11 @@
  * @see https://github.com/timnarr/kirby-imagex#readme
  */
 
+if (!isset($file)) {
+  // throw new Exception('Missing required $file variable');
+  return;
+}
+
 $attrs ??= [];
 $alt ??= $file->content()->alt();
 $caption = $file->content()->caption();
